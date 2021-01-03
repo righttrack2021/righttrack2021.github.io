@@ -1,0 +1,202 @@
+* {
+box-sizing: border-box;
+}
+
+/*Styles for header*/
+header
+{
+  background-color: #00cc66;
+   text-align: center;
+   font-size: 25px;
+  padding: 20px;
+
+}
+/* Styles for article */
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+
+}
+/** Validate media query **/
+
+@media only screen and (max-width: 600px) {
+  main {
+    background-color: lightblue;
+    overflow: auto;
+  }
+}
+
+/* The navbar container */
+#navigation{
+  float: right;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.topnav{
+
+  background-color: #F8C471 ;
+text-align: inherit;
+float: inherit;
+ width:100%;
+}
+
+ul.topnav {
+  list-style-type: none;
+ margin: 0px;
+ padding: 14px 16px ;
+ overflow: hidden;
+}
+ul.topnav li
+ {float: left;
+padding: 14px 15px;
+margin:  auto;
+}
+
+ul.topnav li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size:18px;
+
+}
+@media screen and (max-width: 600px)
+{
+.topnav.responsive{ position: relative;}
+
+
+}
+/* Links - change color on hover */
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*Styles for main body, article for website*/
+body{
+  background: #b3d9ff;
+  font-size: 25px;
+ padding: 15px;
+ margin: auto;
+}
+
+
+section.article{
+
+  background-color: white;
+  width: 50%;}
+
+/*Quotes in website  */
+blockquote{
+
+  font-size: 130%;
+  font-style: italic;
+  color: blue;
+}
+/*The headings for website */
+h1 {
+background-color: white;
+  text-shadow: 2px 2px 5px blue;
+  margin-right:50px;
+  margin-left: 50px ;
+  border: outset;
+  text-align: center
+  ;
+}
+
+h2{
+  margin-right:50px;
+  margin-left: 50px ;
+
+
+}
+
+h3{
+  margin-right:50px;
+  margin-left: 50px ;
+
+}
+/* Main paragraph for website*/
+  p{
+
+    margin-right: 50px;
+    margin-left:50px;
+ padding: 10px;
+  margin: 10px;
+display: inline-block;
+
+
+}
+/*Forms used in website*/
+form{
+  margin-right:50px;
+  margin-left: 50px ;
+
+}
+/*List item for website*/
+li{
+  margin-right:30px;
+  margin-left: 20px ;
+}
+
+aside{
+  width:25%;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+
+}
+/* Images and figure captions for clubs and Services site */
+figure{
+  margin-right:90px;
+  margin-left: 80px;
+  border: double ;
+  float: left;
+
+}
+
+/*Figure captions for website*/
+ figcaption{
+   text-align: center  ;
+   font-style: italic;
+ }
+/* Images that allow to set its width, position and alignment */
+
+ .img1{
+   page: center;
+   border: thick;
+
+ }
+
+ .column {
+
+  padding: 5px;
+  text-align: center;
+
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+/*Address for the website*/
+ address{
+   text-align: left;
+ }

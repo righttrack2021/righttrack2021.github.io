@@ -1,0 +1,22 @@
+/* Style the footer */
+footer{
+  padding: 10px;
+  box-shadow: 10px 10px 5px grey;
+
+}
+
+/* Copyright for the website */
+#copyright {
+
+  text-align: center;
+  background-color: #FF7F50;
+}
+/* image for logo of website */
+.img :hover{
+ transform:rotate(50deg);
+
+}
+.img {
+ border: double 10px rgb(255, 255, 0);
+transition: 5s;
+}
